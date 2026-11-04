@@ -10,7 +10,8 @@ It also contains the example with finding multiple elements, to show you that I 
 with WebDriver.
 For tests I have used example of convention: p/n(positive/negative) + _ + 'I would like to...' 'test name'.
 This is just an example.
-For test steps I have used the pattern, that each test step (method) should be readable by business people
+For test steps I have used the pattern, that each test step (method) should be readable by business people.
+For running all the tests you can use 'mvn test' command.
 
 Issues:
 I have a problem with opening both pages: Login Page and Questionnaire Page XMLs in web browsers (syntax errors).
@@ -37,4 +38,3 @@ Tests:
 #Question 3
 Tests:
 - p_locate5thElementFromDropDown()
-
