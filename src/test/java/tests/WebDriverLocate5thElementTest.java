@@ -13,7 +13,7 @@ public class WebDriverLocate5thElementTest { //no inheritance in this case (ever
         ChromeOptions options = new ChromeOptions();
         driver = new ChromeDriver(options);
 
-        driver.get("http://google.com"); // valid example URL for testing
+        driver.get("http://google.com"); // sample URL just for example for Question 3 task
         driver.findElements(By.cssSelector("[id*='EventType'] li")).get(4).click();
         //there are some different ways for drop downs also, but I decided to:
         //1. locate closer element by id contains 'EventType', because

@@ -13,7 +13,7 @@ import static helpers.TestData.*;
 public class LoginPageTest extends BaseTest {
 
     @Autowired
-    private LoginPage loginPage;//for better readability
+    private LoginPage loginPage;//Autowired for better readibility
 
     @Autowired
     private MainPage mainPage;
